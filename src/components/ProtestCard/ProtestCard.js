@@ -194,7 +194,7 @@ const ProtestCardDetail = styled.h3`
   margin: 0;
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: calc(13px + 1.5vw);
   font-weight: 100;
   margin-bottom: 5px;
 `;
@@ -206,7 +206,7 @@ const ProtestCardIcon = styled.img`
 `;
 
 const ProtestReportWrapper = styled.div`
-  font-size: 15px;
+  font-size: calc(9px + 1.5vw);
   transition: 0.3s;
   cursor: pointer;
 `;
