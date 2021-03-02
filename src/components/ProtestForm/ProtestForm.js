@@ -30,7 +30,7 @@ const OpeningText = () => {
       <h2>{t('opening.one')}</h2>
       <p>{t('opening.two')}</p>
       <p style={{ margin: 0 }}>{t('opening.three')}</p>
-      <a href="#0" role="button" tabIndex="1" onClick={() => window.open('https://www.youtube.com/watch?v=uhaOAPDAXz4')}>
+      <a href="https://www.youtube.com/watch?v=uhaOAPDAXz4" role="button" tabIndex="1" target="_blank" rel="noopener noreferrer">
         {t('opening.link')}
       </a>
     </div>
